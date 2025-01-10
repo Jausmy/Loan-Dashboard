@@ -8,7 +8,7 @@ This analysis was conducted to provide a comprehensive overview of loan approval
 
 ## Methodology
 ### Data Sources
-- The primary data source for this analysis is a loan application dataset comprising 20,000 rows and 36 columns, including:
+The primary data source for this analysis is a loan application dataset comprising 20,000 rows and 36 columns, including:
 - Application Date
 - Applicant Demographics (Age, Marital Status, Number of Dependents)
 - Financial Information (Annual Income, Credit Score, Employment Status, Loan Amount, Loan Duration, Debt-to-Income Ratio, etc.)
@@ -16,7 +16,7 @@ This analysis was conducted to provide a comprehensive overview of loan approval
 - Risk Assessment (Risk Score, Loan Approved)
 
 ### Tools Used
-- The following tools were used for data analysis and visualization:
+The following tools were used for data analysis and visualization:
 - Microsoft Excel – Data familiarization and exploration
 - Microsoft SQL Server – Data cleaning and aggregation
 - Microsoft PowerBI – Data visualization

@@ -95,4 +95,5 @@ This analysis provides valuable insights into loan approval trends and risk fact
 - Debt-to-income ratio is strongly correlated with risk: A strong positive correlation was observed between risk score and debt-to-income ratio, highlighting its importance in risk assessment.
 - Fluctuations in applicant profiles and risk scores occur over time: Year-over-year analysis revealed variations in key metrics, suggesting the need for continuous monitoring and adaptation of lending policies.
 - Refined risk assessment models can improve loan approval decisions: Incorporating additional factors and alternative data sources can enhance the accuracy of risk assessment and minimize potential losses.
+
 By implementing the recommendations outlined in this report and continuously monitoring key performance indicators, the financial institution can optimize its lending practices, mitigate financial risks, and achieve sustainable growth.

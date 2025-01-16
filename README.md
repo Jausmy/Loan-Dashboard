@@ -7,6 +7,7 @@ This report presents a comprehensive analysis of loan approval trends and associ
 This analysis was conducted to provide a comprehensive overview of loan approval trends and risk factors. By examining key metrics such as credit scores, annual income, net worth, debt-to-income ratios, and risk scores, we identified key trends and areas for potential improvement in the loan approval process. A key insight from the analysis is that approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants [(see Analysis of Applicant Profiles by Approval Status)](#Analysis-of-Applicant-Profiles-by-Approval-Status). Based on the analysis, we recommend focusing on refining risk assessment models by incorporating factors such as employment status, education level, and loan purpose to improve the accuracy of loan approval decisions and minimize potential financial losses. By implementing these recommendations, the financial institution can potentially reduce loan defaults by 10-15% and improve overall profitability [(see Potential Impact of Recommendations)](#Potential-Impact-of-Recommendations).
 
 ## Methodology
+
 ### Data Sources
 The primary data source for this analysis is a loan application dataset comprising 20,000 rows and 36 columns, including:
 - Application Date
@@ -51,7 +52,7 @@ The overall loan approval trends are summarized below:
 (Insert visualizations: Line chart showing the trend of loan applications and approval rates over time)
 ## Analysis of Applicant Profiles by Approval Status
 Approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants. This suggests that these factors play a significant role in loan approval decisions.
-|Metric| Approved Applicants|Declined Applicants|
+|Metric|Approved Applicants|Declined Applicants|
 |---|---|---|
 |Average Credit Score|583.71|568.14|
 |Average Annual Income|$103.68k|$45.34k|

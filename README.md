@@ -1,20 +1,20 @@
 # Data Portfolio: Loan Risk Factors Dashboard
 
 ## Overview
-This report presents a comprehensive analysis of loan approval trends and associated risk factors. By examining historical loan application data, we aim to identify key trends in applicant demographics, financial profiles, and risk scores, and provide insights to optimize loan approval processes and mitigate potential financial risks.
+This report presents a comprehensive analysis of loan approval trends and associated risks that may lead to an application getting declined. By examining historical loan application data, we aim to identify key trends in applicant demographics, financial profiles, and risk scores, and provide insights to optimize loan approval processes and mitigate the potential of defaulting.
 
 ## Executive Summary
-This analysis was conducted to provide a comprehensive overview of loan approval trends and risk factors. By examining key metrics such as credit scores, annual income, net worth, debt-to-income ratios, and risk scores, we identified key trends and areas for potential improvement in the loan approval process. A key insight from the analysis is that approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants [(see Analysis of Applicant Profiles by Approval Status)](#Analysis-of-Applicant-Profiles-by-Approval-Status). Based on the analysis, we recommend focusing on refining risk assessment models by incorporating factors such as employment status, education level, and loan purpose to improve the accuracy of loan approval decisions and minimize potential financial losses. By implementing these recommendations, the financial institution can potentially reduce loan defaults by 10-15% and improve overall profitability [(see Potential Impact of Recommendations)](#Potential-Impact-of-Recommendations).
+By examining key metrics such as credit scores, annual income, net worth, debt-to-income ratios, and risk scores, we identified key trends and areas for potential improvement in the loan approval process. A key insight from the analysis is that approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants [(see Analysis of Applicant Profiles by Approval Status)](#Analysis-of-Applicant-Profiles-by-Approval-Status). Based on the analysis, we recommend focusing on refining risk assessment models by incorporating factors such as employment status, education level, and loan purpose to improve the accuracy of loan approval decisions and minimize potential financial losses. By implementing these recommendations, the financial institution can potentially reduce loan defaults by 10-15% and improve overall profitability [(see Potential Impact of Recommendations)](#Potential-Impact-of-Recommendations).
 
 ## Methodology
-
 ### Data Sources
-The primary data source for this analysis is a loan application dataset comprising 20,000 rows and 36 columns, including:
+The primary data source for this analysis is a loan application dataset comprising of 20,000 rows and 36 columns, including:
 - Application Date
 - Applicant Demographics (Age, Marital Status, Number of Dependents)
 - Financial Information (Annual Income, Credit Score, Employment Status, Loan Amount, Loan Duration, Debt-to-Income Ratio, etc.)
 - Loan Specifics (Loan Purpose, Previous Loan Defaults, Payment History)
 - Risk Assessment (Risk Score, Loan Approved)
+Each row in the dataset representing a unique application
 
 ### Tools Used
 The following tools were used for data analysis and visualization:
@@ -28,7 +28,7 @@ The following data cleaning and preparation steps were performed using SQL:
 - Converted the "LoanApproved" column values from 0 and 1 to "Declined" and "Approved" respectively for better readability.
 
 ### Data Exploration
-Initial data exploration involved familiarizing ourselves with the dataset and identifying key variables. This included examining the distribution of loan amounts, credit scores, and risk scores across different applicant demographics and loan purposes.
+Initial data exploration involved familiarizing ourselves with the dataset and identifying key variables. This included examining net worth, credit scores, and risk scores across different applicant demographics.
 
 ### Data Analysis Techniques
 The following data analysis techniques were employed:
@@ -41,6 +41,7 @@ The following data analysis techniques were employed:
 In the future, we can leverage additional data analysis techniques to further refine our understanding of financial risk and optimize loan approval processes. These techniques include:
 - Predictive Modeling: This technique can be used to build risk prediction models that assess the likelihood of loan default based on applicant characteristics and financial history. By incorporating machine learning algorithms and advanced statistical methods, we can develop more accurate risk assessment tools and improve loan approval decisions.
 - Segmentation Analysis: This method involves dividing loan applicants into distinct groups based on shared characteristics such as risk profiles, financial stability, or loan purposes. By understanding the unique needs and risks associated with different applicant segments, we can tailor loan products, customize approval criteria, and minimize potential financial losses.
+
 ## Analysis of Loan Approval Trends
 ### Overall Trends
 The overall loan approval trends are summarized below:
@@ -50,8 +51,10 @@ The overall loan approval trends are summarized below:
 - Declined Applicants: 1,957 (76.5% decline rate)
 - Average Declined Applicants per Year: 280
 (Insert visualizations: Line chart showing the trend of loan applications and approval rates over time)
+
 ## Analysis of Applicant Profiles by Approval Status
 Approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants. This suggests that these factors play a significant role in loan approval decisions.
+
 |Metric|Approved Applicants|Declined Applicants|
 |---|---|---|
 |Average Credit Score|583.71|568.14|
@@ -63,9 +66,11 @@ Approved applicants consistently exhibited higher credit scores, annual income, 
 |Average Risk Score|40.25|54.02|
 
 (Insert visualizations: Bar chart comparing key metrics of approved and declined applicants)
+
 ## Year-over-Year Analysis
 A year-over-year analysis of key metrics revealed some fluctuations in applicant profiles and risk scores. For example, in 2018, approved applicants had a higher average net worth ($140.91k) compared to other years, while in 2021, declined applicants had a higher average debt-to-income ratio (0.54). These fluctuations may be attributed to various factors such as economic conditions, changes in lending policies, or shifts in applicant demographics.
 (Insert visualizations: Line charts showing the trends of key metrics over time for approved and declined applicants)
+
 ## Correlation Analysis
 A correlation analysis was conducted to identify potential relationships between various financial factors and risk scores. The analysis revealed the following:
 - Strong positive correlation: A strong positive correlation was observed between risk score and debt-to-income ratio, indicating that applicants with higher debt-to-income ratios tend to have higher risk scores.
@@ -73,6 +78,7 @@ A correlation analysis was conducted to identify potential relationships between
 - Weak negative correlation: A weak negative correlation was observed between risk score and credit score, indicating that applicants with higher credit scores generally have lower risk scores.
 These correlations highlight the importance of considering multiple financial factors when assessing loan applications and determining risk scores.
 (Insert visualizations: Scatter plots showing the correlation between risk score and other financial factors)
+
 ## Recommendations
 Based on the analysis of loan approval trends and risk factors, the following recommendations are proposed:
 - Refine Risk Assessment Models: Incorporate additional factors such as employment status, education level, and loan purpose into risk assessment models to improve the accuracy of loan approval decisions.
@@ -80,15 +86,19 @@ Based on the analysis of loan approval trends and risk factors, the following re
 - Develop Targeted Loan Products: Develop loan products tailored to specific applicant segments with varying risk profiles and financial needs.
 - Enhance Credit Scoring: Explore alternative credit scoring models that incorporate non-traditional data sources to assess creditworthiness more comprehensively.
 - Educate Applicants: Provide educational resources and financial counseling to loan applicants to promote responsible borrowing and improve financial literacy.
+- Increase interest: For applicants that have high net worths or high income, but also have high risk scores,
+
 ## Potential Impact of Recommendations
 By implementing these recommendations, the financial institution can anticipate the following positive outcomes:
 - Reduced Loan Defaults: Refining risk assessment models and implementing targeted lending strategies can potentially reduce loan defaults by 10-15%.
 - Improved Profitability: Minimizing loan defaults and optimizing lending practices can lead to increased profitability and financial stability.
 - Enhanced Customer Satisfaction: Providing personalized loan products and educational resources can improve customer satisfaction and loyalty.
+
 ## Limitations and Future Considerations
 While this analysis provides valuable insights and recommendations, it's important to acknowledge certain limitations:
 - Data Availability: The analysis is limited by the available data. Access to more granular data, such as detailed credit history, income verification, and employment records, would allow for a more comprehensive risk assessment.
 - External Factors: External factors such as economic downturns, changes in interest rates, and regulatory changes can significantly impact loan performance and should be considered in future analyses.
+
 ## Key Takeaways
 This analysis provides valuable insights into loan approval trends and risk factors. Here are the key takeaways:
 - Creditworthiness is a key factor in loan approvals: Approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants.

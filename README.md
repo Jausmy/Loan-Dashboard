@@ -29,6 +29,8 @@ The following data cleaning and preparation steps were performed using SQL:
 - Converted the "ApplicationDate" column to the appropriate date data type.
 - Converted the "LoanApproved" column values from 0 and 1 to "Declined" and "Approved" respectively for better readability.
 
+![SQL-Data-Cleaning](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%20SQL%20Code.png?raw=true)
+
 ### Data Exploration
 Initial data exploration involved familiarizing ourselves with the dataset and identifying key variables. This included examining net worth, credit scores, and risk scores across different application statuses.
 

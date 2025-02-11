@@ -28,6 +28,7 @@ The following tools were used for data analysis and visualization:
 The following data cleaning and preparation steps were performed using SQL:
 - Converted the "ApplicationDate" column to the appropriate date data type.
 - Converted the "LoanApproved" column values from 0 and 1 to "Declined" and "Approved" respectively for better readability.
+- Aggregated key metrics based on year of application.
 
 ![SQL-Data-Cleaning](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%20SQL%20Code.png?raw=true)
 
@@ -54,6 +55,8 @@ The overall loan approval trends are summarized below:
 - Declined Applicants: 1,957 (76.5% decline rate)
 - Average Declined Applicants per Year: 280
 
+![Total-KPIs](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%20Overall%20Dashboard.png?raw=true)
+
 ## Analysis of Applicant Profiles by Approval Status
 Approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants. This suggests that these factors play a significant role in loan approval decisions.
 
@@ -70,6 +73,14 @@ Approved applicants consistently exhibited higher credit scores, annual income, 
 
 ## Year-over-Year Analysis
 A year-over-year analysis of key metrics revealed some fluctuations in applicant profiles and risk scores. For example, in 2018, approved applicants had a higher average net worth ($140.91k) compared to other years, while in 2021, declined applicants had a higher average debt-to-income ratio (0.54). These fluctuations may be attributed to various factors such as economic conditions, changes in lending policies, or shifts in applicant demographics.
+
+![2018-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202018%20Dashboard.png)
+![2019-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202019%20Dashboard.png)
+![2020-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202020%20Dashboard.png)
+![2021-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202021%20Dashboard.png)
+![2022-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202022%20Dashboard.png)
+![2023-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202023%20Dashboard.png)
+![2024-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202024%20Dashboard.png)
 
 ## Correlation Analysis
 A correlation analysis was conducted to identify potential relationships between various financial factors and risk scores. The analysis revealed the following:

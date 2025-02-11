@@ -57,7 +57,7 @@ The overall loan approval trends are summarized below:
 - Declined Applicants: 1,957 (76.5% decline rate)
 - Average Declined Applicants per Year: 280
 
-![Total-KPIs](Loan%20-%20Overall%20Dashboard.png?raw=true)
+![Total-KPIs](Assets/Loan%20-%20Overall%20Dashboard.png?raw=true)
 
 ## Analysis of Applicant Profiles by Approval Status
 Approved applicants consistently exhibited higher credit scores, annual income, and net worth compared to declined applicants. This suggests that these factors play a significant role in loan approval decisions.

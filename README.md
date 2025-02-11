@@ -1,4 +1,5 @@
 # Data Portfolio: Loan Risk Factors Dashboard
+
 ![Loan Risk Factors Project](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20Image.jpg)
 
 ## Overview
@@ -76,6 +77,7 @@ Approved applicants consistently exhibited higher credit scores, annual income, 
 A year-over-year analysis of key metrics revealed some fluctuations in applicant profiles and risk scores. For example, in 2018, approved applicants had a higher average net worth ($140.91k) compared to other years, while in 2021, declined applicants had a higher average debt-to-income ratio (0.54). These fluctuations may be attributed to various factors such as economic conditions, changes in lending policies, or shifts in applicant demographics.
 
 ![2018-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202018%20Dashboard.png)
+
 ![2021-Dashboard](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20-%202021%20Dashboard.png)
 
 ## Correlation Analysis

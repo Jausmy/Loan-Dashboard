@@ -1,4 +1,5 @@
 # Data Portfolio: Loan Risk Factors Dashboard
+![Loan Risk Factors Project](https://github.com/Jausmy/Loan-Dashboard/blob/main/Assets/Loan%20Image.jpg)
 
 ## Overview
 This report presents a comprehensive analysis of loan approval trends and associated risks that may lead to an application getting declined. By examining historical loan application data, we aim to identify key trends in applicant demographics, financial profiles, and risk scores, and provide insights to optimize loan approval processes and mitigate the potential of defaulting.

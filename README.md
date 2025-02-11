@@ -16,6 +16,8 @@ The primary data source for this analysis is a loan application dataset comprisi
 - Risk Assessment (Risk Score, Loan Approved)
 Each row in the dataset representing a unique application
 
+![Original dataset](assets/Loan_-_Data_Source_Excel.png)
+
 ### Tools Used
 The following tools were used for data analysis and visualization:
 - Microsoft Excel – Data familiarization and exploration

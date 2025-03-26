@@ -16,7 +16,8 @@ The primary data source for this analysis is a loan application dataset comprisi
 - Financial Information (Annual Income, Credit Score, Employment Status, Loan Amount, Loan Duration, Debt-to-Income Ratio, etc.)
 - Loan Specifics (Loan Purpose, Previous Loan Defaults, Payment History)
 - Risk Assessment (Risk Score, Loan Approved)
-Each row in the dataset representing a unique application
+
+Each row in the dataset representing a unique application.
 
 ![Original-dataset](Assets/Loan%20-%20Data%20Source%20Excel.png?raw=true)
 
@@ -41,7 +42,6 @@ Initial data exploration involved familiarizing ourselves with the dataset and i
 The following data analysis techniques were employed:
 - Trend Analysis: We analyzed trends in loan applications and approval rates over time, specifically by year. This involved aggregating data by year and visualizing the trends to identify any significant changes in loan application volume or approval criteria.
 - Comparative Analysis: We compared the financial profiles and risk scores of approved and declined applicants to identify key factors that influence loan approval decisions. This involved grouping data by approval status and calculating descriptive statistics for key metrics such as average credit scores, annual income, and debt-to-income ratios.
-- Diagnostic Analysis: This analysis was used to identify any significant differences or fluctuations in loan approval rates or risk scores over time. By examining various factors such as economic conditions, changes in lending policies, or shifts in applicant criteria, we aim to better understand the underlying reasons for these fluctuations.
 
 ## Future Considerations for Data Analysis
 In the future, we can leverage additional data analysis techniques to further refine our understanding of financial risk and optimize loan approval processes. These techniques include:
@@ -83,7 +83,7 @@ A year-over-year analysis of key metrics revealed some fluctuations in applicant
 ## Correlation Analysis
 A correlation analysis was conducted to identify potential relationships between various financial factors and risk scores. The analysis revealed the following:
 - Strong positive correlation: A strong positive correlation was observed between risk score and debt-to-income ratio, indicating that applicants with higher debt-to-income ratios tend to have higher risk scores.
-- Weak negative correlation: A weak negative correlation was observed between risk score and credit score, indicating that applicants with higher credit scores generally have lower risk scores.
+- Moderate negative correlation: A moderate negative correlation was observed between risk score and credit score, indicating that applicants with higher credit scores tend to have lower risk scores than those with lower credit scores.
 These correlations highlight the importance of considering multiple financial factors when assessing loan applications and determining risk scores.
 
 ## Recommendations
@@ -98,7 +98,7 @@ Based on the analysis of loan approval trends and risk factors, the following re
 ## Potential Impact of Recommendations
 By implementing these recommendations, the financial institution can anticipate the following positive outcomes:
 - Reduced Loan Defaults: Refining risk assessment models and implementing targeted lending strategies can potentially reduce loan defaults by 10-15%.
-- Improved Profitability: Minimizing loan defaults, optimizing lending practices, and creating high interest loan options for high net worth/income applicatns with high risk scores, can lead to increased profitability and financial stability.
+- Improved Profitability: Minimizing loan defaults, optimizing lending practices, and creating high interest loan options for high net worth/income applicants with high risk scores, can lead to increased profitability and financial stability.
 - Enhanced Customer Satisfaction: Providing personalized loan products and educational resources can improve customer satisfaction and loyalty.
 
 ## Limitations and Future Considerations
